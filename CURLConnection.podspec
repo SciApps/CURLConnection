@@ -121,6 +121,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   s.libraries = "curl-ios"
+  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/curl/lib"' }
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
