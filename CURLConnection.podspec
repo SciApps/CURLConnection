@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
-  s.libraries = "curl-ios"
+  s.libraries = "curl-ios", "z"
   s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/curl/lib"' }
 
 
