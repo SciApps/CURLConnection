@@ -119,9 +119,7 @@ Pod::Spec.new do |s|
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
-  s.libraries = "curl-ios", "z"
-  s.xcconfig  =  { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/curl/lib"' }
-
+  s.libraries = "z", "curl-ios"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,7 +129,8 @@ Pod::Spec.new do |s|
 
   # s.requires_arc = true
 
-  # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "curl"
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/curl/lib", "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libz" }
+
+  s.dependency "util"
 
 end
