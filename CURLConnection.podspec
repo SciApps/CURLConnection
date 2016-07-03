@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "CURLConnection is a wrapper for curl with URLConnection like API."
 
-  s.homepage     = "http://dev.server/stash/users/robert.balint/repos/CURLConnection/"
+  s.homepage     = "https://github.com/mrnuku/CURLConnection"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -51,10 +51,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "robert.balint" => "robert.balint@incepteam.com" }
-  # Or just: s.author    = "robert.balint"
-  # s.authors            = { "robert.balint" => "robert.balint@incepteam.com" }
-  # s.social_media_url   = "http://twitter.com/robert.balint"
+  s.author             = { "mrnuku" => "mrnuku@gmail.com" }
+  # Or just: s.author    = "mrnuku"
+  # s.authors            = { "mrnuku" => "mrnuku@gmail.com" }
+  # s.social_media_url   = "http://twitter.com/mrnuku"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "http://dev.server/stash/scm/~robert.balint/curlconnection.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/mrnuku/CURLConnection.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
